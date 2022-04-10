@@ -4,6 +4,7 @@ import input from './../lib/input.js'
 import help from './../lib/help.js'
 import download from './../lib/download.js'
 import repo from './../config/repo.js'
+import replace from './../lib/replace.js'
 
 async function run() {
   help()
@@ -32,6 +33,8 @@ async function run() {
   }
 
   await download(url, answers.folder)
+
+  await replace(answers.folder)
 }
 
 run()

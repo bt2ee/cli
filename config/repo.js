@@ -1,5 +1,5 @@
 const repo = {
-  'qiankun-vue-template': 'git@github.com:sqshada/template-list.git'
+  'qiankun-vue-template': 'https://github.com/sqshada/template-list.git#master'
 }
 
 export default repo
