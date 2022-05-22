@@ -30,7 +30,7 @@ export default {
   ],
   output: [
     {
-      file: 'lib/index.js',
+      file: 'dist/index.js',
       format: 'cjs',
       sourcemap: true
     }
